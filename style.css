@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite NG Modern", cursive;
+   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,rgb(22, 53, 56),rgb(2, 39, 22));
+}
+
+.calculator{
+    border: 1px solid rgb(251, 245, 245);
+    padding: 23px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow:0px 3px 12px rgb(165, 160, 160) ;
+}
+
+input{
+    width: 300px;
+    border:none; 
+    padding: 23px;
+    margin: 8px;
+    background-color: transparent;
+    box-shadow:0px 3px 12px rgb(165, 160, 160) ;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+
+button{
+    border: transparent;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    background:transparent;
+    color: white;
+    font-size:20px;
+    box-shadow: -8px -8px 12px rgb(255,255,255,0.2);
+}
+
+.equal{
+    background-color: #b2620c;
+}
+.operator{
+    color: #1cf1d5;
+}
